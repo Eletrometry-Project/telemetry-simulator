@@ -1,0 +1,9 @@
+[
+  {"id":"sobrecarga-001","cabine_id":"cabine-001","tipo":"sobrecarga","inicio_s":600,"duracao_s":1800,"multiplicador":1.18,"rampa_s":60},
+  {"id":"desligamento-001","cabine_id":"cabine-001","tipo":"desligamento","inicio_s":3600,"duracao_s":600},
+  {"id":"desequilibrio-002","cabine_id":"cabine-002","tipo":"desequilibrio","inicio_s":600,"duracao_s":1800,"fase":"B","fracao":0.35,"rampa_s":60},
+  {"id":"sem-leitura-002","cabine_id":"cabine-002","tipo":"sensor_sem_leitura","inicio_s":3000,"duracao_s":180,"fase":"A","grandeza":"temperatura"},
+  {"id":"congelado-002","cabine_id":"cabine-002","tipo":"sensor_congelado","inicio_s":4000,"duracao_s":180,"fase":"A","grandeza":"corrente"},
+  {"id":"mau-contato-003","cabine_id":"cabine-003","tipo":"mau_contato","inicio_s":600,"duracao_s":3000,"fase":"C","fator_resistencia":4.0,"rampa_s":120},
+  {"id":"offline-003","cabine_id":"cabine-003","tipo":"sem_comunicacao","inicio_s":4500,"duracao_s":120}
+]

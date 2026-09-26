@@ -1,0 +1,22 @@
+{
+  "planta_id": "planta-01",
+  "fuso_operacao": "America/Sao_Paulo",
+  "corrente_nominal_a": 400.0,
+  "tc_fundo_escala_a": 600.0,
+  "modelo_tc": "TC generico virtual 600 A; validar selecao fisica com o professor",
+  "carga_dia_pu": 0.62,
+  "carga_noite_pu": 0.24,
+  "hora_inicio_turno": 6.0,
+  "hora_fim_turno": 22.0,
+  "fator_fim_semana": 0.72,
+  "ambiente_medio_c": 27.0,
+  "amplitude_diaria_c": 3.0,
+  "amplitude_sazonal_c": 2.0,
+  "elevacao_nominal_c": 40.0,
+  "tau_termico_s": 900.0,
+  "tau_sensor_temperatura_s": 12.0,
+  "temperatura_min_sensor_c": -50.0,
+  "temperatura_max_sensor_c": 200.0,
+  "ruido_corrente_relativo": 0.0015,
+  "ruido_temperatura_c": 0.06
+}
